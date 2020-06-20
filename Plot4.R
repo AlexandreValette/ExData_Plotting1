@@ -19,7 +19,7 @@ with(data, plot(DateTime, Sub_metering_1, type = 'l', xlab = "", ylab = "Energy 
 ))
 with(data, lines(DateTime, Sub_metering_2, col="red"))
 with(data, lines(DateTime, Sub_metering_3, col="blue"))
-legend("topright",lty = 1, col=c("black","red","blue"),
+legend("topright",lty = 1, col=c("black","red","blue"), xjust = 0,
        legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 # Bottom-Right
